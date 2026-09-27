@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Panel - Products</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header class="topbar">
+    <h1>Admin Panel</h1>
+    <nav class="admin-nav">
+      <a href="index.html">Orders</a>
+      <a href="products.html" class="active">Products</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="admin-toolbar">
+      <button type="button" id="reset-btn" class="secondary-btn">Reset producten</button>
+      <a href="add-product.html" class="add-btn" aria-label="Product toevoegen">+</a>
+    </div>
+
+    <table class="admin-table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Naam</th>
+          <th>Prijs</th>
+          <th>Afbeelding URL</th>
+          <th></th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="products-body"></tbody>
+    </table>
+  </main>
+
+  <script type="module" src="products.js"></script>
+</body>
+</html>

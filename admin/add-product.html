@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Voeg product toe - Admin Panel</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header class="topbar">
+    <h1>Admin Panel</h1>
+    <nav class="admin-nav">
+      <a href="index.html">Orders</a>
+      <a href="products.html" class="active">Products</a>
+    </nav>
+  </header>
+
+  <main class="container form-page">
+    <a href="products.html" class="back-link">Ga terug</a>
+    <h2>Voeg product toe</h2>
+
+    <form id="add-product-form" novalidate>
+      <label for="naam">Naam</label>
+      <input type="text" id="naam" name="naam">
+      <span class="error-message" id="naam-error"></span>
+
+      <label for="prijs">Prijs</label>
+      <input type="text" id="prijs" name="prijs">
+      <span class="error-message" id="prijs-error"></span>
+
+      <label for="afbeelding">Afbeelding</label>
+      <div class="url-row">
+        <input type="text" id="afbeelding" name="afbeelding">
+        <button type="button" id="preview-btn" class="secondary-btn">Preview</button>
+      </div>
+      <span class="error-message" id="afbeelding-error"></span>
+
+      <img id="preview-img" class="preview-img" hidden alt="Voorbeeld van het product" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBTAA7">
+
+      <button type="submit" class="primary-btn">Voeg toe</button>
+    </form>
+  </main>
+
+  <script type="module" src="add-product.js"></script>
+</body>
+</html>
