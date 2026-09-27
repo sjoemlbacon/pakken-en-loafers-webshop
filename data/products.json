@@ -1,0 +1,44 @@
+[
+  {
+    "id": 0,
+    "naam": "Marineblauw Pak",
+    "prijs": 349.00,
+    "afbeelding": "/img/pak-marineblauw.webp"
+  },
+  {
+    "id": 1,
+    "naam": "Antraciet Pak",
+    "prijs": 329.00,
+    "afbeelding": "/img/pak-antraciet.webp"
+  },
+  {
+    "id": 2,
+    "naam": "Bruine Loafers",
+    "prijs": 129.95,
+    "afbeelding": "/img/loafers-bruin.webp"
+  },
+  {
+    "id": 3,
+    "naam": "Zwarte Loafers",
+    "prijs": 139.95,
+    "afbeelding": "/img/loafers-zwart.webp"
+  },
+  {
+    "id": 4,
+    "naam": "Wit Overhemd",
+    "prijs": 59.00,
+    "afbeelding": "/img/overhemd-wit.webp"
+  },
+  {
+    "id": 5,
+    "naam": "Zijden Stropdas",
+    "prijs": 39.50,
+    "afbeelding": "/img/stropdas-zijde.webp"
+  },
+  {
+    "id": 6,
+    "naam": "Leren Riem",
+    "prijs": 45.00,
+    "afbeelding": "/img/riem-leer.webp"
+  }
+]
